@@ -1,0 +1,25 @@
+Given an e-commerce application like Amazon. List all its primary functions and give strong points to
+support which architectural design will be the best for it.Please submit your code as a repository on Google doc link."
+
+
+Primary function of an Amazon application:
+1. Category details with the list of products
+2. Product information
+3. UI of the products
+4. DB which maintains the categories,products and product descriptions
+5. User information DB(users,nonusers, sellers,Admins).
+6. Business logics for each of the users
+7.CRM to manage the customer support and process
+8. Cart detail management
+9. Payment details management
+10. Shipping and Dispatch segment
+
+Archetectural Design:
+Architectural design I would prefer is SOA
+Because the application is very big and monolithic architecture will not help.
+If we use SOA, following advantages can be harvested...
+             1. Scalability will be easy.
+             2. security can be taken care
+             3. The whole project can be divided into multiple small services
+             4. If the service is really small it can be shared inside bigger service code base
+             5.DB can be shared by different services if the have common data

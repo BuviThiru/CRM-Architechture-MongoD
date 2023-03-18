@@ -1,0 +1,4 @@
+Write GET API to fetch users list present in database
+    app.get(/domainName/CRM/api/v1/users) ==> to get all the users.
+
+     app.get(/domainName/CRM/api/v1/users/:{id}) ==> To get specific user

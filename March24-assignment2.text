@@ -1,0 +1,26 @@
+Write difference b/w monolithic and microservice architecture.
+
+Monolithic	 
+1.	Used for small applications          	
+2.	Beginners friendly	  
+3.	Comparatively less expensive
+4.	Integration of the application is easy	
+5.	Testing is bit complex as everything should be done together	
+6.	Small change will also demand the entire deployment	
+7.	Components are tightly bound	
+8.	Any error in any of the component will lead the breaking of entire app	
+9.	Scaling is difficult	
+10.	Single tech stack is used	
+
+Microservices.
+1. Used for large applications
+2.  Need good experience to analyse to integrate
+3.	Expensive as different database and services are used for each component
+4. Integration of the services needs skill and service registry/discovery
+5. Individual services can be tested easily
+6. Any change in a particular service leads to partial deployment of that particular service alone
+7. Components are loosely bound
+8. Any error in the service, will not break the entire application
+9. Scaling is easy as we can scale a specific component individually.
+10.Multiple tech stacking can be used
+
